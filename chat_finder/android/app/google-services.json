@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "584297767094",
+    "firebase_url": "https://chatfinder-f878a.firebaseio.com",
+    "project_id": "chatfinder-f878a",
+    "storage_bucket": "chatfinder-f878a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:584297767094:android:b3388a55e1e48c50e04617",
+        "android_client_info": {
+          "package_name": "com.aetheralchemist.chat_finder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "584297767094-mfq31a7h8bc6tdfs8ktifrb90obnjt49.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.aetheralchemist.chat_finder",
+            "certificate_hash": "f4848b2ad03822160651e69b2fd00a1b665a2cf5"
+          }
+        },
+        {
+          "client_id": "584297767094-n8lbkqt1h98r781s80801i7clu1oju3e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXk2iTVDwmnFKNFh1kXHNl3Kw1A5aTj-w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "584297767094-n8lbkqt1h98r781s80801i7clu1oju3e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
