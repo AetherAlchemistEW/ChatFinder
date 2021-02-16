@@ -1,7 +1,7 @@
 import 'package:chat_finder/provider/theme_provider.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/scheduler.dart';
-import 'package:gradient_app_bar/gradient_app_bar.dart';
+//import 'package:gradient_app_bar/gradient_app_bar.dart';
 import 'package:provider/provider.dart';
 
 class SettingsScreen extends StatefulWidget {
@@ -42,11 +42,11 @@ class _SettingsScreenState extends State<SettingsScreen> {
     ThemeProvider themeProvider = Provider.of<ThemeProvider>(context, listen: false);
 
     return Scaffold(
-      appBar: GradientAppBar(
+      appBar: AppBar(), /*GradientAppBar(
         gradient: LinearGradient(colors: [Theme.of(context).primaryColor, Theme.of(context).accentColor]),
         title: Text("Settings",
           style: Theme.of(context).primaryTextTheme.headline4,),
-      ),
+      ),*/
       body: Container(
         child: Column(
           children: <Widget>[

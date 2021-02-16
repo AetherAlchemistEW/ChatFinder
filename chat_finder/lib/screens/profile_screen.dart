@@ -5,7 +5,7 @@ import 'package:chat_finder/provider/image_upload_provider.dart';
 import 'package:chat_finder/resources/firebase_repository.dart';
 import 'package:chat_finder/utils/utilities.dart';
 import 'package:flutter/material.dart';
-import 'package:gradient_app_bar/gradient_app_bar.dart';
+//import 'package:gradient_app_bar/gradient_app_bar.dart';
 import 'package:image_picker/image_picker.dart';
 import 'login_screen.dart';
 
@@ -54,11 +54,11 @@ class _ProfileScreenState extends State<ProfileScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: GradientAppBar(
+      appBar: /*GradientAppBar(
         gradient: LinearGradient(colors: [Theme.of(context).primaryColor, Theme.of(context).accentColor]),
         title: Text("Profile",
           style: Theme.of(context).primaryTextTheme.headline4,),
-      ),
+      )*/ AppBar(),
       body: Container(
         alignment: Alignment.center,
         child: isLoading ? Center(child: CircularProgressIndicator())

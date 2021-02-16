@@ -3,7 +3,7 @@ import 'package:chat_finder/resources/firebase_repository.dart';
 import 'package:chat_finder/utils/call_utilities.dart';
 import 'package:chat_finder/widgets/topicSelectionCard.dart';
 import 'package:flutter/material.dart';
-import 'package:gradient_app_bar/gradient_app_bar.dart';
+//import 'package:gradient_app_bar/gradient_app_bar.dart';
 
 class QueueScreen extends StatefulWidget {
   @override
@@ -25,11 +25,11 @@ class _QueueScreenState extends State<QueueScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: GradientAppBar(
+      appBar: AppBar(), /*GradientAppBar(
         gradient: LinearGradient(colors: [Theme.of(context).primaryColor, Theme.of(context).accentColor]),
         title: Text("Find a chat",
         style: Theme.of(context).primaryTextTheme.headline4,),
-      ),
+      ),*/
 
       body: Align(
         alignment: Alignment.center,
